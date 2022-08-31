@@ -1,0 +1,56 @@
+section.repository-list {
+    margin: 40px;
+
+    h1 {
+        margin-bottom: 16px;
+        margin-left: 30px;
+        color: #4B0082;
+    }
+
+    h4 {
+        color: #800080;
+        margin-left: 30px;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;  
+        align-items: center;
+
+        li {
+            margin: 25px;
+            background-color: #E6E6FA;
+            padding: 20px;
+            border-radius: 8px;     
+        }
+
+        strong {
+            color: #4B0082;
+        }
+
+        p {
+            font-size: 14px;
+            color: #4B0082;
+            margin-top: 8px;
+            width: 260px;
+            height: 40px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 16px;
+            text-decoration: none;
+            color: #800080;
+
+        }
+
+        a:hover {
+            color: #FF00FF;
+            font-size: 18px;
+          }
+    }
+
+}
